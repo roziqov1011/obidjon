@@ -9,7 +9,7 @@ function Home({data}) {
         <ul className="list">
             {
               data && data.map((e,i)=>(
-                    <li key={i}>
+                    <li >
                         <h2>{e}</h2>
                     </li>
                 ))
